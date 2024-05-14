@@ -1,0 +1,379 @@
+@CHARSET "ISO-8859-1";
+/* Responsive */
+@media screen and (max-width:560px){
+    .ui-grid-responsive .ui-grid-row{
+        display:block;
+    }
+    .ui-grid-responsive .ui-grid-col-1, .ui-grid-col-4, .ui-grid-col-8, .ui-grid-responsive .ui-grid-col-3, .ui-grid-responsive .ui-grid-col-5, .ui-grid-responsive .ui-grid-col-6, .ui-grid-responsive .ui-grid-col-7{
+        width:100%;
+        float:none;
+        text-align: center !important;
+    }
+    
+    #keypad-div{
+        font-size: 1em !important;
+    }
+    .keypad-key {
+        width: 17px !important;
+    }
+    .keypad-spacebar{
+        width: 158px !important;
+    }
+    .keypad-enter{
+        width: 48px !important;
+    }
+    .keypad-clear, .keypad-back, .keypad-close, .keypad-shift{
+        width: 45px !important;
+    }
+}
+
+@media screen and (min-width:561px) and (max-width:800px){
+    .ui-grid-responsive .ui-grid-row{
+        display:block;
+    }
+    
+    .ui-grid-responsive .ui-grid-col-4{
+        width:45% ;
+        float:none;
+        text-align: left !important;
+    }
+    .ui-grid-responsive .ui-grid-col-8{
+        width:55%;
+        float:none;
+        text-align: left !important;
+    }
+    
+    .ui-grid-responsive .ui-grid-col-5, .ui-grid-responsive .ui-grid-col-6, .ui-grid-responsive .ui-grid-col-7{
+        width:50%;
+        float:none;
+    }
+    
+    .ui-grid-responsive .ui-grid-col-3{
+        width:25%;
+        float:none;
+        text-align: center !important;
+    }
+    
+    #keypad-div{
+        font-size: 1em !important;
+    }
+    .keypad-key {
+        width: 17px !important;
+    }
+    .keypad-spacebar{
+        width: 158px !important;
+    }
+    .keypad-enter{
+        width: 48px !important;
+    }
+    .keypad-clear, .keypad-back, .keypad-close, .keypad-shift{
+        width: 45px !important;
+    }
+}
+ 
+.ui-steps .ui-steps-item {
+    width: 30%;
+}
+
+.ui-state-highlight {
+    text-shadow: none !important;
+}
+ 
+.ui-steps.custom {
+    margin-bottom: 30px;
+}
+
+.ui-steps.custom .ui-steps-item .ui-menuitem-link {
+    height: 10px;
+    padding: 0 1em;
+}
+ 
+.ui-steps.custom .ui-steps-item .ui-steps-number {
+    background-color: #0069a0;
+    color: #FFFFFF;
+    display: inline-block;
+    width: 30px;
+    border-radius: 10px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.grid-general {
+    width: 100% !important;
+}
+
+.ui-outputlabel-rfi {
+    color: #B22222 !important;
+}
+
+.ui-editor {
+    margin: auto !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.ui-grid-col-1-5{
+    width:10%;
+}
+
+.ui-grid-col-2-5{
+    width:19%;
+}
+
+.ui-grid-col-1-5, .ui-grid-col-2-5{
+    float:left;
+    box-sizing:border-box;
+}
+
+.ui-grid-col-1, .ui-grid-col-1-5, .ui-grid-col-2, .ui-grid-col-2-5 {
+    text-align: left !important;
+}
+
+.table-noborder table, .table-noborder thead th, .table-noborder thead td, .table-noborder tbody td {
+    border: hidden !important;
+}
+
+.ui-datatable-data{
+    font-size: 1.1em !important;
+}
+
+.ui-paginator {
+    border: 1px solid #a4acb0 !important;
+    /*text-align: right !important;*/
+    margin: auto !important;
+    background: #ffffff url("#{resource['primefaces-saqbe:images/ui-bg_flat_75_ffffff_40x100.png']}") 50% 50% repeat-x !important;
+}
+
+.ui-paginator-rpp-options {
+    width: 55px !important;
+    font-size: 1.1em !important;
+}
+
+.ui-column-title {
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+}
+
+.ui-panelgrid-footer {
+    background: none !important;
+    border-style: hidden !important;
+    color: #000000;
+    text-align: justify !important;
+}
+
+.ui-panelgrid-content {
+    border-style: hidden !important;
+}
+
+.ui-outputlabel{
+    font-weight: bold !important;
+}
+
+.textoAqua{
+    color: #0093a9;
+}
+
+.textoAzul{
+    color: #0069a0;
+}
+
+.textoAzulOscuro{
+    color: #0F5072;
+}
+
+.fondoGris{
+    background: #e6e7e8;
+    background-color: #e6e7e8;
+}
+
+.textoBlancoFondoAzul{
+    color: white;
+    background: #0069a0;
+    background-color: #0069a0;
+}
+
+.textoBlancoFondoAqua{
+    color: white;
+    background: #0093a9;
+    background-color: #0093a9;
+}
+
+.textoAquaFondoGris{
+    color: #0093a9;
+    background: #e6e7e8;
+    background-color: #e6e7e8;
+}
+
+.textoAzulFondoGris{
+    color: #0069a0;
+    background: #e6e7e8;
+    background-color: #e6e7e8;
+}
+
+.ui-inputfield, .ui-inputtext, .ui-multiselectlistbox-listcontainer, .ui-slider {
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    width: 100% !important;
+    border: 1px solid #A4ACB0 !important;
+}
+
+
+.calendar>.ui-inputfield{
+    width: 70% !important;
+    
+}
+
+.ui-multiselectlistbox-header {
+    color: #000000 !important;
+    width: 100% !important;
+    border: 1px solid #A4ACB0 !important;
+}
+
+.ui-inputswitch{
+    height: 20px !important;
+}
+
+.ui-radiobutton-box, .ui-chkbox-box, .ui-inputswitch{
+    border: 1px solid #A4ACB0 !important;
+    background: transparent !important;
+}
+
+.ui-inputswitch-off {
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+    color: #e6e7e8 !important;
+}
+
+.ui-inputswitch-on {
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+.ui-selectonemenu, .ui-selectcheckboxmenu {
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    width: 102% !important;
+    border: 1px solid #A4ACB0 !important;
+}
+
+.ui-autocomplete .ui-autocomplete-input{
+    
+}
+
+.ui-selectonemenu .ui-inputfield, .ui-selectonemenu .ui-inputfield:hover, 
+.ui-selectonemenu .ui-inputfield:focus, .ui-multiselectlistbox-listcontainer {
+    border: 0px !important;
+}
+
+.ui-selectonemenu-panel, .ui-autocomplete-panel {
+    max-width: 50% !important;
+}
+
+.ui-calendar {
+    color: #000000 !important;
+}
+
+.ui-calendar-center{
+    color: #000000 !important;
+}
+
+span.ui-calendar > input.ui-inputfield {
+    width: 100% !important;
+}
+
+span.ui-calendar-center > input.ui-inputfield {
+    width: 100% !important;
+    text-align: center !important;
+}
+
+.ui-autocomplete-panel {
+    max-height: 200px !important;
+}
+
+.ui-inputfield:focus, .ui-inputfield:hover, .ui-inputtext:focus, .ui-inputtext:hover, .ui-inputswitch:hover, 
+.ui-inputtextarea-resizable:focus, .ui-inputtextarea-resizable:hover, 
+.ui-selectonemenu:hover, .ui-selectcheckboxmenu:hover, .ui-selectonemenu-item:hover, .ui-selectlistbox-item:hover, .ui-inputmask:focus, .ui-inputmask:hover,
+.ui-radiobutton-box:hover, .ui-chkbox-box:hover {
+    border: 1px solid #0069a0 !important;
+    background: #e6e7e8 !important;
+}
+
+div.ui-selectonemenu .ui-inputfield{
+    width: 90% !important;
+}
+
+div.ui-selectonemenu{
+    width: 102% !important;
+}
+
+.ui-helper-hidden label:hover {
+    border: 0.14em solid #0069a0 !important;
+    background: #e6e7e8 !important;
+}
+
+.ui-inputtextarea-resizable {
+    width: 164px !important;
+    resize: vertical;
+    height: 30px;
+    min-height: 20px;
+    max-height: 70px;
+    background: transparent !important;
+    color: #000000 !important;
+}
+
+.ui-spinner-input {
+    background: none !important;
+    text-align: left !important;
+    width: 162px !important;
+    padding: 5px !important;
+}
+
+input.ui-column-filter.ui-state-default {
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+input.ui-column-filter.ui-state-default:focus {
+    border: 0.17em solid #0069a0 !important;
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+}
+
+button {
+    background: #29A762 !important;
+    background-color: #29A762 !important;
+    color: white !important;
+    border: 1px solid #29A762 !important;
+}
+
+button.ui-state-hover{
+    border: 1px solid #29A762 !important;
+}
+
+button.ui-state-focus{
+    border: 1px solid #29A762 !important;
+}
+
+button.ui-state-active{
+    border: 1px solid #0093a9 !important;
+}
+
+div.textoBlancoFondoAqua>ul.ui-menu-list>li.ui-menuitem-active>a.ui-state-hover{
+    background: #a4acb0 !important;
+    background-color: #a4acb0 !important;
+}
+
+div.textoBlancoFondoAqua>ul.ui-menu-list>li.ui-menuitem>a.ui-menuitem-link>span.ui-menuitem-text{
+    color: white;
+}
+
+.ui-fieldset-legend {
+    padding: 0.1em 1em 0.1em 1em !important;
+    cursor: help !important;
+}

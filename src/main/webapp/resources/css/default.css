@@ -1,0 +1,182 @@
+@CHARSET "ISO-8859-1";
+/*
+body {	
+	color: #000;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-family: verdana;
+	font-size: 11px;
+	font-style: normal;
+	text-decoration: none;
+	background-color: #61768E !important;
+}
+*/
+body {
+    background-color: #ffffff;
+    font-size: 15px;
+    font-family: Verdana, "Verdana CE",  Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    color: #641E16;  
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    border-bottom: 1px solid #AFAFAF; 
+    font-size:  16px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    color: #D20005;
+}
+
+
+a:link, a:visited {
+  color: #045491;
+  font-weight : bold;
+  text-decoration: none;
+}
+
+a:link:hover, a:visited:hover  {
+  color: #045491;
+  font-weight : bold;
+  text-decoration : underline;
+}
+
+#page { 
+    margin: 5px auto;
+	top: 0px;
+	padding: 5px;
+	background: /*#F0F4F8;*/ #fafafa;
+	width: 95%;
+	/*min-width: 768px;*/
+	/*text-align: left;*/
+	border-right:2px solid #e0e0e0;
+	border-bottom:2px solid #e0e0e0;
+	/*-moz-border-radius: 15px;*/
+}
+
+.area_botones {
+	width: 50%;
+	text-align: center;
+	padding: 10px;
+	background-color: #e1edf4;
+	border: 1px solid #FFCC33 !important;
+}
+
+#page .breadcrumbs {
+	font-size: 13px;
+	text-align: left;
+	float: left;
+	color: #194294;		
+	font-family: "Lucida Grande", Verdana;
+	font-weight: bold;
+}
+
+.bloque { /*display:block;
+	position:relative;*/
+	background-color: #fff;
+	border: 1px #e0e0e0 solid;
+	/*margin: 5px;
+	margin-left:auto;
+	margin-right:auto;*/
+	padding: 3px;
+	text-align: left;
+	z-index: 1;
+}
+
+.bloque a {
+	color: #00f;
+	text-decoration: none;
+}
+
+.bloque a:hover {
+	color: #00f;
+	text-decoration: underline;
+}
+
+.bloque a:visited {
+	color: #00f;
+	text-decoration: none;
+}
+
+#bloque #texto {
+	font-size: 11px;
+	display: block;
+	position: relative;
+	margin: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	text-align: justify;
+	color: #000;
+}
+
+#page table {
+	font-size: 11px;
+	font-family: "Lucida Grande", Verdana;
+}
+
+#page .nombreAtributo {
+	color: black;		
+	font-size: 13px;
+	text-align: left;
+	font-family: "Lucida Grande", Verdana;
+}
+
+.ui-fieldset {
+	background-color: #ffffff;
+	padding: 5px;
+	text-align: left;
+	margin: 2px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border: 1px solid #A4ACB0;
+}
+
+.ui-fieldset .ui-fieldset-legend {
+	border-top: 1px solid #0069a0;
+	border-left: 1px solid #0069a0;
+	border-bottom: 1px solid #0069a0;
+	border-right: 1px solid #0069a0;
+	background-color: #0069a0 !important;
+        color: white;
+	cursor: default;
+	font: normal bold 12px "Lucida Grande", Verdana !important;
+}
+
+.pe-inputNumber, .hasDatepicker, .ui-selectonemenu{
+	 background: white !important;
+	 border: 1px solid #A4ACB0 !important;   
+	 color: #000 !important;				 
+}   
+
+#page .boton_app {
+	background: #0069a0;
+	color:#fff;
+	font-family: "Lucida Grande", Verdana;
+	font-weight: bold;
+	font-size: 12px;
+	border: 1px solid #0069a0;
+	margin-right: 3px;
+}
+
+#page .boton_app:hover,.boton_app a,.boton_app a:hover,.boton_app a:visited {
+	background: #0069a0;
+	color: #f60;
+	text-decoration: none;
+	border-color: #0069a0;
+}
+
+#page .ui-custompanelgrid, .ui-custompanelgrid td {
+	text-align: right;
+	width: 100%;	
+}
+
+#page .filterOutPut {
+	/*width:150px;*/
+	background: #fff !important;
+}
