@@ -7,10 +7,6 @@ package umg.edu.gt.DAO;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-/**
- *
- * @author Wilmer de Mata
- */
 public class ConexionDAO {
 
     private String url = "jdbc:mysql://localhost:3306/sistema"; // URL de la base de datos
